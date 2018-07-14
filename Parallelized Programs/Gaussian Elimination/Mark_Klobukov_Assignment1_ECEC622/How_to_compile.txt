@@ -1,0 +1,5 @@
+gcc -o gauss_eliminate gauss_eliminate.c compute_gold.c -fopenmp -std=c99 -O3 -lm
+
+and then run using:
+
+./gauss_eliminate
